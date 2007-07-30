@@ -8,7 +8,7 @@ use vars qw($VERSION);
 
 =head1 NAME
 
-Integrator::Test::TAP::Model - modified version of Test::TAP::Model
+Integrator::Test::TAP::Model::Patch - modified version of Test::TAP::Model
 
 =head1 VERSION
 
@@ -16,7 +16,7 @@ Version 0.01
 
 =cut
 
-$VERSION = sprintf "%d.%03d", q$Revision: 1.1 $ =~ /(\d+)/g;
+$VERSION = sprintf "%d.%03d", q$Revision: 1.2 $ =~ /(\d+)/g;
 
 =head1 SYNOPSIS
 

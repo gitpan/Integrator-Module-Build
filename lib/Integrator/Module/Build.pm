@@ -8,12 +8,12 @@ Integrator::Module::Build - Gather and synchronize Test::More results in Cydone'
 
 =head1 VERSION
 
-Version $Revision: 1.54 $
+Version $Revision: 1.55 $
 
 =cut
 
 use vars qw($VERSION);
-$VERSION = sprintf "%d.%03d", q$Revision: 1.54 $ =~ /(\d+)/g;
+$VERSION = sprintf "%d.%03d", q$Revision: 1.55 $ =~ /(\d+)/g;
 
 use File::stat;
 use Data::UUID;
@@ -49,7 +49,7 @@ using the module-starter script available from Module::Starter:
 
 	module-starter 	--mb 					\
 			--email='my-email@cydone.com' 		\
-			--author='User Name'	 	\
+			--author='User Name'	 		\
 			--module='My::Test::Module'
 
 Then, you want to edit the Build.PL file under My-Test-Module with the

@@ -12,11 +12,11 @@ Integrator::Test::ConfigData - Configuration information transfered in the TAP o
 
 =head1 VERSION
 
-$Revision: 1.10 $
+$Revision: 1.11 $
 
 =cut
 
-$VERSION = sprintf "%d.%03d", q$Revision: 1.10 $ =~ /(\d+)/g;
+$VERSION = sprintf "%d.%03d", q$Revision: 1.11 $ =~ /(\d+)/g;
 
 =head1 SYNOPSIS
 
@@ -27,7 +27,7 @@ Solutions. These functions are mostly wrappers around ok functions.
 See Test::Simple on www.cpan.org as a reference. If you need more
 information for the TAP format see Test::TAP::Model on www.cpan.org.
 
-Each of these functions are considered a single test statement and must
+Each of these functions is considered a single test statement and must
 be counted in your test plan. This module is a sub-class of Test::Builder.
 
     #... your typical test.t file ...

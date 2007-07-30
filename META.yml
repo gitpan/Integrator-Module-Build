@@ -1,6 +1,6 @@
 ---
 name: Integrator-Module-Build
-version: 1.054
+version: 1.055
 author:
   - 'Francois Perron <fxfx@cydone.com>'
 abstract: Gather and synchronize Test::More results in Cydone's Integrator
@@ -35,13 +35,13 @@ build_requires:
 provides:
   Integrator::Module::Build:
     file: lib/Integrator/Module/Build.pm
-    version: 1.054
+    version: 1.055
   Integrator::Test::ConfigData:
     file: lib/Integrator/Test/ConfigData.pm
-    version: 1.010
+    version: 1.011
   Integrator::Test::TAP::Model::Patch:
     file: lib/Integrator/Test/TAP/Model/Patch.pm
-    version: 1.001
+    version: 1.002
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
