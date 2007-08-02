@@ -1,6 +1,6 @@
 ---
 name: Integrator-Module-Build
-version: 1.056
+version: 1.057
 author:
   - 'Francois Perron <fxfx@cydone.com>'
 abstract: Gather and synchronize Test::More results in Cydone's Integrator
@@ -22,7 +22,7 @@ requires:
   XML::SAX::Expat: 0
   XML::Simple: 0
   YAML: 0
-  perl: 5.8
+  perl: '>= 5.8.8'
 build_requires:
   Compress::Zlib: 0
   HTML::Parser: 0
@@ -35,7 +35,7 @@ build_requires:
 provides:
   Integrator::Module::Build:
     file: lib/Integrator/Module/Build.pm
-    version: 1.056
+    version: 1.057
   Integrator::Test::ConfigData:
     file: lib/Integrator/Test/ConfigData.pm
     version: 1.011

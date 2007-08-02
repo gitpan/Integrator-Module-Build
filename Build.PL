@@ -8,7 +8,7 @@ my $builder = Module::Build->new(
     dist_author         => 'Francois Perron <fxfx@cydone.com>',
     dist_version_from   => 'lib/Integrator/Module/Build.pm',
     requires		=> {
-	'perl'			=> '5.8',
+	'perl'			=> '>= 5.8.8',
 	'Test::Harness'		=> '2.64',
 	'YAML'			=> 0,
 	'Test::Pod'		=> 0,
