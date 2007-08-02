@@ -8,6 +8,11 @@ my $build = Integrator::Module::Build->current;
 # object returns something
 ok ( defined $build,						'object can be instanciated' );
 
+
+SKIP: {
+	skip 'not in development mode', 3;
+
+
 $build->notes('simple' => 'stuff');
 is ( $build->notes('simple'), 'stuff',			'hash value is added');
 
@@ -28,3 +33,5 @@ $build->notes('complex' => $href);
 
 my %hash = %{$href};		#taking a copy
 is_deeply ( $build->notes('complex'), \%hash,		'complex data structure is properly saved');
+
+}

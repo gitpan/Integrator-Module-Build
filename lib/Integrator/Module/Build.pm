@@ -8,12 +8,12 @@ Integrator::Module::Build - Gather and synchronize Test::More results in Cydone'
 
 =head1 VERSION
 
-Version $Revision: 1.55 $
+Version $Revision: 1.56 $
 
 =cut
 
 use vars qw($VERSION);
-$VERSION = sprintf "%d.%03d", q$Revision: 1.55 $ =~ /(\d+)/g;
+$VERSION = sprintf "%d.%03d", q$Revision: 1.56 $ =~ /(\d+)/g;
 
 use File::stat;
 use Data::UUID;
@@ -41,7 +41,7 @@ Integrator::Module::Build can communicate test results in the style
 of Test::More to Cydone Integrator and synchronise test information
 (test cases, descriptions, results, log files, measurements, component
 states, etc.)
-
+ 
 Since the test harness itself is nothing less than a standard perl
 module, you can use Module::Start to create a new test harness. Here
 is an example on how to create a test harness called 'my-test-module'

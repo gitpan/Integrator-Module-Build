@@ -1,6 +1,11 @@
 Revision history for Integrator-Module-Build
 
 
+July 30th 2007 - rev 1.056
+
+	- Added dev switch in tests
+	- Documentation touch-ups
+
 July 30th 2007 - First release to CPAN - rev 1.055
 
 

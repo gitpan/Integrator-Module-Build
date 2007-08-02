@@ -10,5 +10,10 @@ use Test::More tests => 1;
 use Integrator::Module::Build;
 my $build = Integrator::Module::Build->current;
 
+SKIP: {
+	skip 'not in development mode' , 1;
+
 $build->config_data( 'cafe' => 'take another one' );
 is ( $build->config_data( 'cafe' ), 'take another one',				'read-back proper intermediate value' );
+
+}

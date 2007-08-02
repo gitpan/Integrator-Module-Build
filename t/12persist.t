@@ -8,4 +8,12 @@ use Test::More tests => 1;
 
 use Integrator::Module::Build;
 my $build = Integrator::Module::Build->current;
+
+
+SKIP: {
+	skip 'not in development mode' , 1;
+
+
 isnt ( $build->config_data( 'complex' ), undef,				'complex data structure is still visible' );
+
+}
